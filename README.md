@@ -1,2 +1,2 @@
 # EpicodeFE06
-Primo profetto Epicode
+Primo progetto Epicode
