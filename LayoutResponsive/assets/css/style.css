@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body, html {
+    font-family: Montserra, sans-serif;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+
+.logo {
+    width: 35%;
+    text-align: center;
+}
+
+.contenitore {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    position: fixed;
+    background-position: center;
+    height: 200px;
+    margin-top: -20px;
+}
+
+.contenuto1 {
+    align-self: center;
+}
+
+.contenuto2 {
+    align-self: center;
+    padding-top: 22px;
+    margin-right: 20px;
+}
+
+.button {
+    background-color: #f72553;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+
+.button:hover {
+    background-color: #00d9da;
+}
+
+header div ul li {
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    padding-top: 200px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    text-align: center;
+
+}
+
+main h1 {
+    color: #42a6c4;
+}
+
+main {
+    text-align: center;
+
+}
+
+.button1 {
+    background-color: #f04c2f;
+    color: white;
+    text-align: center;
+    width: 300px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    height: 50px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+
+}
+
+
+
+.tonda {
+    border-radius: 50%;
+}
+
+section h3 {
+    color: #42a6c4;
+}
+
+.rossa {
+    background-color: #e22d0e;
+    color: white;
+}
+
+
+.immagini1 {
+    width: 80%;
+}
+
+.immagini {
+    width: 80%;
+}
+
+.immagini2 {
+    width: 80%;
+}
+
+.scritte {
+    width: 80%;
+    text-align: center;
+    display: inline-block;
+}
+
+footer {
+    background-color: #42a6c4;
+    color: #c8e7f0;
+    text-align: center;
+}
+
+footer a {
+    color: #c8e7f0;
+    text-decoration: none;
+}
+
+.contatti {
+    padding-right: 40px;
+}
+
+hr {
+    color: #c8e7f0;
+}
+
+
+
+@media screen and (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        height: 300px;
+    }
+
+    .box1 {
+        width: 30%;
+        text-align: right;
+    }
+
+    .box3 {
+        width: 30%;
+        text-align: left;
+    }
+
+    .tonda {
+        width: 60%;
+    }
+
+    .contenitore2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .immagini {
+        width: 60%;
+        display: inline-block;
+    }
+
+    .immagini2 {
+        width: 70%;
+    }
+
+    .immagini1 {
+        width: 63%;
+    }
+
+    .scritte {
+        width: 60%;
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contenitore {
+        display: flex;
+        flex-direction: column;
+
+
+
+    }
+
+    #menu {
+        display: flex;
+        flex-direction: row;
+
+
+
+    }
+
+
+    .button {
+        padding: 5px;
+        margin-left: 4px;
+    }
+
+    .logo {
+        margin-top: 60px;
+    }
+
+    .container {
+        height: 300px;
+    }
+
+    .box2 {
+        align-self: center;
+    }
+}
